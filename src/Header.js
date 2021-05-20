@@ -1,4 +1,6 @@
 import React from 'react'
+import { Avatar } from '@material-ui/core';
+import "./Header.css";
 
 const Header = () => {
     return (
@@ -14,21 +16,28 @@ const Header = () => {
                 <div className="header__verticalLine"></div>
                 <h2>Esports</h2>
                 <h2>Music</h2>
-                <i class="fas fa-ellipsis-h"></i>
+                <i className="fas fa-ellipsis-h"></i>
             </div>
 
             <div className="header__center">
                 <input type="text" placeholder="Search"/>
                 <div className="header__centerLogoContainer">
-                    <i class="fas fa-search"></i>
+                    <i className="fas fa-search"></i>
                 </div>
             </div>
 
             <div className="header__right">
                 <div className="header__rightContainer">
-                    <i class="fas fa-crown"></i>
-                    <i class="fas fa-inbox"></i>
-                    <i class="fas fa-comment-alt"></i>
+                    <i className="fas fa-crown"></i>
+                    <i className="fas fa-inbox"></i>
+                    <i className="fas fa-comment-alt"></i>
+
+                    <div className="header__rightBits">
+                        <i className="fas fa-gem"></i>
+                        <h4>Get Bits</h4>
+                    </div>
+
+                    <Avatar/>
                 </div>
             </div>
         </div>
