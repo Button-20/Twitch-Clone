@@ -1,0 +1,8 @@
+.body {
+  background-color: rgb(255, 153, 0);
+  background: url("16484113761556105335.svg");
+  flex: 1;
+  display: flex;
+  height: 100vh;
+  overflow: scroll;
+}
